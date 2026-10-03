@@ -1,0 +1,125 @@
+<style>
+body{
+    font-family: Arial, sans-serif;
+    background:#0f0f0f;
+    margin:0;
+    padding:0;
+}
+
+/* CENTER WRAPPER */
+.content-wrapper{
+    max-width:520px;
+    margin:10px auto;
+    background:#151515;
+    border-radius:14px;
+    box-shadow:0 0 25px rgba(229,9,20,0.15);
+    padding:20px;
+    text-align:center;
+    color:#fff;
+}
+
+/* THUMBNAIL */
+.thumbnail{
+    position:relative;
+    display:inline-block;
+    width:100%;
+    border-radius:16px;
+    overflow:hidden;
+}
+
+.thumbnail img{
+    width:100%;
+    display:block;
+    border-radius:16px;
+    filter:blur(2px) brightness(0.9);
+}
+
+/* PLAY BUTTON */
+.play-button{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width:110px;
+    height:110px;
+    background:rgba(0,0,0,0.6);
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.play-icon{
+    width:70px;
+    height:70px;
+    fill:#ffffff;
+}
+
+/* CTA BUTTON */
+.watch-btn{
+    display:inline-block;
+    margin-top:15px;
+    width:90%;
+    max-width:400px;
+    padding:16px;
+    font-size:18px;
+    font-weight:bold;
+    background:#e50914;
+    color:#fff !important;
+    text-decoration:none;
+    border-radius:14px;
+    transition:0.3s ease;
+}
+
+/* SUBTLE PULSE */
+@keyframes pulse{
+  0%{transform:scale(1)}
+  50%{transform:scale(1.04)}
+  100%{transform:scale(1)}
+}
+
+.watch-btn{
+  animation:pulse 2.4s infinite ease-in-out;
+}
+
+/* SUBTEXT */
+.subtext{
+    margin-top:12px;
+    font-size:14px;
+    color:#aaa;
+}
+</style>
+
+<div class="content-wrapper">
+
+  <a class="thumbnail" href="https://t.co/2cwFt13MYh">
+      <img alt="Video Preview" src="https://cdn.aceimg.com/tXT9hqEti.png">
+      <div class="play-button">
+          <svg viewBox="0 0 24 24" class="play-icon">
+              <polygon points="6,4 20,12 6,20"></polygon>
+          </svg>
+      </div>
+  </a>
+
+  <a class="watch-btn" href="https://t.co/2cwFt13MYh">
+    ▶️ Watch Now
+  </a>
+
+  <div class="subtext">
+    Tap the button above to continue.
+  </div>
+
+</div>
+</div>
+<!-- Histats.com  START  (aync)-->
+<script type="text/javascript">var _Hasync= _Hasync|| [];
+_Hasync.push(['Histats.start', '1,4864599,4,0,0,0,00010000']);
+_Hasync.push(['Histats.fasi', '1']);
+_Hasync.push(['Histats.track_hits', '']);
+(function() {
+var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
+hs.src = ('//s10.histats.com/js15_as.js');
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+})();</script>
+<noscript><a href="/" target="_blank"><img src="//sstatic1.histats.com/0.gif?4864599&amp;101" alt="" border="0" /></a></noscript>
+<!-- Histats.com  END  -->
